@@ -7,12 +7,12 @@ import App from './App/App'
 const Root = ({ store }) => (
   <Provider store={store}>
     <BrowserRouter>
-      <App/>
+       <Route path="/:filter?" component={App} />
     </BrowserRouter>
   </Provider>
 )
 
-Root.PropTypes = {
+Root.propTypes = {
   store: PropTypes.object.isRequired
 }
 
