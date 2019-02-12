@@ -4,7 +4,7 @@ const RecipeCard = (props) => {
 
   return (
     <div>
-
+      
     </div>
   )
 }
